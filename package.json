@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "pixel2thml cli helper tool",
   "bin": {
-    "pxl": "pxl-cli"
+    "pxl": "./index.js"
   },
   "scripts": {
     "lint": "standard"
