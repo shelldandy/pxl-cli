@@ -1,6 +1,6 @@
 {
   "name": "pxl-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "pixel2thml cli helper tool",
   "bin": {
     "pxl": "./index.js"
