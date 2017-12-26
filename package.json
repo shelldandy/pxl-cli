@@ -1,0 +1,14 @@
+{
+  "name": "pxl-cli",
+  "version": "0.0.1",
+  "description": "pixel2thml cli helper tool",
+  "bin": {
+    "pxl": "bin/pxl-cli"
+  },
+  "repository": "https://github.com/mike3run/pxl-cli",
+  "author": "Miguel Palau <mpalauzarza@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
