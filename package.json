@@ -5,6 +5,9 @@
   "bin": {
     "pxl": "bin/pxl-cli"
   },
+  "scripts": {
+    "lint": "standard"
+  },
   "repository": "https://github.com/mike3run/pxl-cli",
   "author": "Miguel Palau <mpalauzarza@gmail.com>",
   "license": "MIT",
