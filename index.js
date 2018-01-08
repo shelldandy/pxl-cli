@@ -24,7 +24,12 @@ const script = scriptIndex === -1 ? args[0] : args[scriptIndex]
 switch (script) {
   case 'code':
   case 'gitlab':
-    opn('https://code.pixel2html.com/')
+    const id = process.argv[3]
+    if (id) {
+      opn(`https://code.pixel2html.com/clients/project-${id}`)
+    } else {
+      opn('https://code.pixel2html.com/')
+    }
     break
   case 'dashboard':
     opn('https://pixel2html.com/dashboard')
